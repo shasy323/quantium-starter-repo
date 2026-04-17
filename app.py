@@ -60,6 +60,7 @@ region_picker = dcc.RadioItems(
 )
 region_picker_wrapper = html.Div(
     [region_picker],
+    id="region_picker",
     style={
         "fontSize": "120%",
         "marginTop": "20px"
